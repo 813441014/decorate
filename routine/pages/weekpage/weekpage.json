@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "园所食谱",
+  "usingComponents": {
+    "weekCalendar": "../week/week"
+  }
+}

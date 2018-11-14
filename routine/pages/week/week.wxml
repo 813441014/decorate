@@ -1,0 +1,37 @@
+<view class='row' bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+
+  <view class='row' bindtap='lastWeek'>
+
+    <text class='iconfont icon-arrow_left' style='padding:20rpx;'></text>
+
+    <view style='font-size:32rpx;'>上一周</view>
+
+  </view>
+
+  <view class='timeType'>{{timeBean.yearMonth}}</view>
+
+  <view class='row' bindtap='nextWeek'>
+
+    <view style='font-size:32rpx;'>下一周</view>
+
+    <text class='iconfont icon-arrow_right' style='padding:20rpx;'></text>
+
+  </view>
+
+</view>
+
+
+<view class='row'>
+
+  <view class='column' wx:for="0123456" bindtap='itemClick' data-index="{{index}}">
+
+    <view class='weekType'>{{timeBean.weekDayList[index].week}}</view>
+
+    <view class='dateType'>{{timeBean.weekDayList[index].day}}</view>
+
+  </view>
+
+</view>
+
+
+<view class='line'></view>

@@ -1,0 +1,7 @@
+<view>
+  <view  bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+
+    <weekCalendar id='weekCalendar' timeBean="{{timeBean}}" bind:dayClick='dayClick'></weekCalendar>
+  </view>
+
+</view>
