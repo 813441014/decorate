@@ -6,7 +6,9 @@
     "pages/noli/noli",
     "pages/data/data",
     "pages/week/week",
-    "pages/weekpage/weekpage"
+    "pages/weekpage/weekpage",
+    "pages/localstr/localstr",
+    "pages/locat/locat"
   ],
   "window": {
     "backgroundTextStyle": "light",

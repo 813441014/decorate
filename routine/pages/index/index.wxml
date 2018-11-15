@@ -14,4 +14,7 @@
    <view bindtap="detailsnoli">dianzheli </view>
    <view bindtap="inde">dianzheli </view>
    <view bindtap="weekfun">周</view>
+   <view bindtap='localstr'>本地缓存</view>
+   <view bindtap="locat">位置信息</view>
+
 </view>

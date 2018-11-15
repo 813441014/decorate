@@ -1,0 +1,4 @@
+<!--pages/locat/locat.wxml-->
+<view>
+  <view bindtap="locat">位置信息</view>
+</view>

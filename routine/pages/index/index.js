@@ -71,5 +71,15 @@ Page({
     wx.navigateTo({
       url: '../weekpage/weekpage',
     })
+  },
+  localstr:function(){
+    wx.navigateTo({
+      url: '../localstr/localstr',
+    })
+  },
+  locat:function(){
+    wx.navigateTo({
+      url: '../locat/locat',
+    })
   }
 })
