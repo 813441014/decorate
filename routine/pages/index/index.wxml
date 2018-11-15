@@ -16,5 +16,5 @@
    <view bindtap="weekfun">周</view>
    <view bindtap='localstr'>本地缓存</view>
    <view bindtap="locat">位置信息</view>
-
+    <view bindtap="leftpage">左</view>
 </view>

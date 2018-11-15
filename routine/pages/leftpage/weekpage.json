@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "园所食谱",
+  "usingComponents": {
+    "weekCalendar": "../leftweek/week",
+    "monthCalendar":"../leftmonth/can"
+  }
+}

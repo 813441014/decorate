@@ -8,7 +8,8 @@
     "pages/week/week",
     "pages/weekpage/weekpage",
     "pages/localstr/localstr",
-    "pages/locat/locat"
+    "pages/locat/locat",
+    "pages/leftmonth/can"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -81,5 +81,10 @@ Page({
     wx.navigateTo({
       url: '../locat/locat',
     })
+  },
+  leftpage:function(){
+    wx,wx.navigateTo({
+      url: '../leftpage/weekpage',
+    })
   }
 })
