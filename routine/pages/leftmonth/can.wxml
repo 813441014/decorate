@@ -1,11 +1,10 @@
 <view class='wrap'>
-<template name="monthtem">
   <view>
     <view class='date-show'>
       <view class='lt-arrow' bindtap='lastMonth'>
         <image src='../../img/nextMonth.png' mode='aspectFit'></image>
       </view>
-      {{year}}年{{month}}月
+      {{month}}
       <view class='rt-arrow' bindtap='nextMonth'>
         <image src='../../img/nextMonth.png' mode='aspectFit'></image>
       </view>
@@ -59,5 +58,4 @@
       <view wx:elif="{{item.part == '2'}}" class="smallpart">玩</view> -->
     </view>
   </view>
-  </template>
 </view>

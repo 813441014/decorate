@@ -4,8 +4,7 @@
       <weekCalendar id='weekCalendar' timeBean="{{timeBean}}" bind:dayClick='dayClick'></weekCalendar>
     </view>
     <view wx:else>
-      <monthCalendar > 
-      </monthCalendar>
+      <monthCalendar month="{{month}}" year="{{year}}" date="{{date}}" dateArr="{{dateArr}}" isToday="{{isToday}}" isTodayWeek="{{isTodayWeek}}" todayIndex="todayIndex" json="{{json}}"> </monthCalendar>
     </view>
   </view>
 </view>
